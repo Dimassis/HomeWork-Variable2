@@ -50,7 +50,7 @@ public class Main {
         System.out.println();
         byte sumPaint = 120;
         byte oneClass = 4 + 2;
-        byte sumClass = (byte) (120 / oneClass);
+        byte sumClass = (byte) (sumPaint / oneClass);
         byte brown = (byte) (sumClass * 4);
         byte white = (byte) (sumClass * 2);
         System.out.println("В школе, где " + sumClass + " классов нужно " + brown + " коричневых " +
