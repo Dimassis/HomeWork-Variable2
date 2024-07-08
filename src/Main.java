@@ -39,8 +39,8 @@ public class Main {
         byte productivity = 16 / 2; // продуктивность в 1 минуту
         short twentyMin = (short) (productivity * 20);
         short oneDay = (short) (productivity * 60 * 24);
-        int threeDays = (int) (oneDay * 3);
-        int oneMonth = (int) (oneDay * 30);
+        int threeDays = oneDay * 3;
+        int oneMonth = oneDay * 30;
         System.out.println("За 20 минут  машина произвела " + twentyMin +  " штук бутылок");
         System.out.println("За 1 день  машина произвела " + oneDay +  " штук бутылок");
         System.out.println("За 3 дня  машина произвела " + threeDays +  " штук бутылок");
